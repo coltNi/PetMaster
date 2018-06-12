@@ -1,0 +1,6 @@
+﻿<div *ngFor="let list of petLists">
+    <h3>{{list.gender}}</h3>
+    <div *ngFor="let name of list.names">
+        &#8226; {{name}}
+    </div>
+</div>
